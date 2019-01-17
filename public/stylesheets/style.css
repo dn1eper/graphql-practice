@@ -6,3 +6,17 @@ body {
 a {
   color: #00B7FF;
 }
+
+img {
+  height: 200px;
+  margin: 10px;
+}
+
+.col {
+  outline: 2px solid #eceeef;
+  margin: 4px;
+}
+
+.col:hover {
+  background-color: #eceeef;
+}

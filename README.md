@@ -1,4 +1,4 @@
-# ## Graph Query Language Practice
+# Graph Query Language Practice
 
 Educational project to use graphQL technology.
 
@@ -6,7 +6,7 @@ Educational project to use graphQL technology.
 
 Install the dependencies and start the server.
 ```sh
-$ cd image-viewer
+$ cd graphql-practice
 $ npm install
 $ npm run server
 ```

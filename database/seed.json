@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Xiaomi Redmi 5 Plus 4/64GB Black",
+            "description": "Display (5.99, IPS, 2160x1080)/ Qualcomm Snapdragon 625 (2.0 GHz)/ main camera: 12 Mp, front-camera: 5 Mp/ RAM 4 GB/ 64 GB ROM + microSD/SDHC (up to 128 GB)/ 3G/ LTE/ GPS/ GLONASS/ support 2х SIM-cards (Nano-SIM)/ Android 7.1 (Nougat) / 4000 mAh*h",
+            "image": "https://static.svyaznoy.ru/upload/iblock/9d6/30.jpg",
+            "price": 16990
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy S9+ 64GB Midnight Black",
+            "description": "Display (6.2, Super AMOLED, 2960х1440)/ Samsung Exynos 9810 (4 x 2.7 GHz + 4 x 1.7 GHz)/ double main camera: 12 Mp + 12 Mp, front-camera: 8 Mp/ RAM 6 GB/ 64 GB ROM + microSD (up to 400 GB)/ 3G/ LTE/ GPS/ support 2х SIM-cards (Nano-SIM)/ Android 8.0 (Oreo) / 3500 mAh*h",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71dd-elhT7L._SY679_.jpg",
+            "price": 53990
+        },        
+        {
+            "id": 3,
+            "title": "Huawei P20 Pro 6/128GB Black",
+            "description": "Display (6.1, OLED, 2240x1080)/ HiSilicon Kirin 970 (4 cores 2.36 GHz + 4 cores 1.8 GHz)/ three main cameras: 40 Mp + 20 Mp + 8 Mp, front-camera: 24 Mp/ RAM 6 GB/ 128 GB ROM + microSD/SDHC (up to 256 GB)/ 3G/ LTE/ GPS/ GLONASS/ support 2х SIM-cards (Nano-SIM)/ Android 8.1 (Oreo)/ 4000 mAh*h",
+            "image": "https://static.svyaznoy.ru/upload/iblock/bd7/1111.jpg",
+            "price": 44990
+        },
+        {
+            "id": 4,
+            "title": "Apple iPhone X 3/64GB Silver",
+            "description": "Display (5.8, OLED (Super Retina HD), 2436x1125)/ Apple A11 Bionic/ main camera: double 12 Mp, front-camera: 7 Mp/ RAM 3 GB/ 64 GB ROM/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 11",
+            "image": "https://static.svyaznoy.ru/upload/iblock/3b5/silver.jpg",
+            "price": 74990
+        },
+        {
+            "id": 5,
+            "title": "Sony Xperia XZ2 Compact 4/64GB Black",
+            "description": "Display (5, IPS, 2160x1080)/ Qualcomm Snapdragon 845 (4 x 2.7 GHz + 4 x 1.7 GHz)/ main camera: 19 Mp, front-camera: 5 Mp/ RAM 4 GB/ 64 GB ROM + microSD (up to 400 GB)/ 3G/ LTE/ GPS/ support 2х SIM-cards (Nano-SIM)/ Android 8.0 (Oreo)/ 2870 mAh*h",
+            "image": "https://static.svyaznoy.ru/upload/iblock/fdf/71rdvqtgnjl._sl1500_.jpg",
+            "price": 49990
+        }
+    ]
+}

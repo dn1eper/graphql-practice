@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1><%= title %></h1>
+        </div>
+                
+        <div class="container">
+            <% items.forEach((item) => { %>
+                <div class="row">
+                    <div class="col">
+                        <img src=<%= item.image %> class="float-left d-block" alt="Cinque Terre">
+                        <h3><%= item.title %></h3>
+                        <p><%= item.description %></p>
+                        <h2 class="float-right">Price <%= item.price + " rub" %></h2>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </body>
 </html>
