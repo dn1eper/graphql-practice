@@ -8,19 +8,19 @@
     <body>
         <div class="jumbotron text-center">
             <h1><%= title %></h1>
+            <select class="form-control-sm currency"> 
+                <option value="rub">rub</option>
+                <option value="eur">eur</option>
+                <option value="usd">usd</option>
+                <option value="aud">aud</option>
+                <option value="azn">azn</option>
+                <option value="kzt">kzt</option>
+                <option value="ron">ron</option>
+                <option value="uzs">uzs</option>
+            </select>
         </div>
-                
-        <div class="container">
-            <% items.forEach((item) => { %>
-                <div class="row">
-                    <div class="col">
-                        <img src=<%= item.image %> class="float-left d-block" alt="Cinque Terre">
-                        <h3><%= item.title %></h3>
-                        <p><%= item.description %></p>
-                        <h2 class="float-right">Price <%= item.price + " rub" %></h2>
-                    </div>
-                </div>
-            <% }); %>
-        </div>
+        <div class="container"></div>
+        
+        <script src="/javascripts/main.js"></script>
     </body>
 </html>

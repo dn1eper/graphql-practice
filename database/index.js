@@ -47,13 +47,16 @@ function seed() {
 }
 
 // Get all items
-function getItems(callback) {
-    let sql = `SELECT * FROM item`;
-    db.all(sql, [], (err, rows) => {
-        if (err) {
-            return console.log(err.message);
-        }
-        callback(rows);
+function getItems() {
+    return new Promise((resolve, reject) => {
+        let sql = `SELECT * FROM item`;
+        db.all(sql, [], (err, rows) => {
+            if (err) {
+                reject(err.message);
+            }
+            rows.forEach((row) => row.currency = 'rub');
+            resolve(rows);
+        });
     });
 }
 
